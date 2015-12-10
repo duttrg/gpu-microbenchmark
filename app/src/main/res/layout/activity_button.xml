@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:text="Change Form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:textSize="40dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:text="mb-VerM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <RadioGroup
+            android:id="@+id/verMGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="5">
+
+            <RadioButton
+                android:id ="@+id/verMOption1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="64"/>
+            <RadioButton
+                android:id ="@+id/verMOption2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="128"/>
+            <RadioButton
+                android:id ="@+id/verMOption3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="256"/>
+            <RadioButton
+                android:id ="@+id/verMOption4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="384"/>
+            <RadioButton
+                android:id ="@+id/verMOption5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="512"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <!-- app -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:text="mb-App"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <RadioGroup
+            android:id="@+id/appGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="5">
+
+            <RadioButton
+                android:id ="@+id/appOption1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="0"/>
+            <RadioButton
+                android:id ="@+id/appOption2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="1"/>
+            <RadioButton
+                android:id ="@+id/appOption3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="2"/>
+            <RadioButton
+                android:id ="@+id/appOption4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="3"/>
+            <RadioButton
+                android:id ="@+id/appOption5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="4"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <!-- verSh -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:text="mb-VerSh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <RadioGroup
+            android:id="@+id/verShGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="5">
+
+            <RadioButton
+                android:id ="@+id/verShOption1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="10000"/>
+            <RadioButton
+                android:id ="@+id/verShOption2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="30000"/>
+            <RadioButton
+                android:id ="@+id/verShOption3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="50000"/>
+            <RadioButton
+                android:id ="@+id/verShOption4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="70000"/>
+            <RadioButton
+                android:id ="@+id/verShOption5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="100000"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- fragSh -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:text="mb-FragSh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <RadioGroup
+            android:id="@+id/fragShGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="5">
+
+            <RadioButton
+                android:id ="@+id/fragShOption1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="64"/>
+            <RadioButton
+                android:id ="@+id/fragShOption2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="256"/>
+            <RadioButton
+                android:id ="@+id/fragShOption3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="512"/>
+            <RadioButton
+                android:id ="@+id/fragShOption4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="768"/>
+            <RadioButton
+                android:id ="@+id/fragShOption5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="1024"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- mb-TexM -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:text="mb-TexM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <RadioGroup
+            android:id="@+id/texMGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="5">
+
+            <RadioButton
+                android:id ="@+id/texMOption1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="256"/>
+            <RadioButton
+                android:id ="@+id/texMOption2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="512"/>
+            <RadioButton
+                android:id ="@+id/texMOption3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="1024"/>
+            <RadioButton
+                android:id ="@+id/texMOption4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="2048"/>
+            <RadioButton
+                android:id ="@+id/texMOption5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:text="4096"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:id = "@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text = "submit"
+            android:textSize="30dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
